@@ -1,0 +1,74 @@
+.cardlist{
+    padding: 2vh 3vw;
+    margin: 0vh 2vw 2vh 2vw;
+    box-shadow: 1px 1px 10px 1px  rgba(128, 128, 128, 0.329);
+    display: flex;
+    border-radius: 5px;
+    cursor: pointer;
+    min-height: 250px;
+    min-width: 580px;
+}
+.cardlist:hover{
+    box-shadow: 1px 1px 10px 2px  rgba(128, 128, 128, 0.385);
+}
+.user-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-icon li{
+    font-size: 150px;
+    margin-right: 1vw;
+    color: rgba(0, 0, 0, 0.815);
+}
+.user-text{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 0 1vw;
+}
+.user-location{
+    display: flex;
+}
+.user-location li{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+    line-height: 1;
+}
+li{
+    list-style-type: none;
+}
+.user-name li{
+    font-size: 30px;
+}
+.user-details li{
+    font-weight: 600;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.782);
+}
+.user-details li span{
+   float: right;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.addtocart{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 10px 60px;
+    border: none;
+    margin-top: 10px;
+}
+.red{
+    background-color: white;
+    color: black;
+    border: 1px solid;
+}
+.addtocart:hover{
+    cursor: pointer;
+}

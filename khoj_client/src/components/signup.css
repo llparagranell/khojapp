@@ -1,0 +1,22 @@
+.input-field{
+    width: 200px;
+    line-height: 26px;
+   
+}
+.input-field input,
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }  
+  .login-form{
+    margin: 0px auto;
+    margin-left:55px;
+    padding-top: 35px;
+  }  
+  .input-field label {
+    display: block;
+        font-weight: bold;
+      }
+      

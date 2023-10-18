@@ -1,0 +1,54 @@
+.main-card {
+    background-color: white;
+    border-radius: 4px;
+    width: 300px;
+    box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.2);
+    margin: 15vh auto;
+    padding: 10vh 4vw;
+    text-align: center;
+}
+
+.input-field {
+    margin-bottom: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.input-field label{
+    display: block;
+  font-weight: 500;
+  color: rgb(92, 92, 92);
+}
+.input-field input{
+    padding: 10px 10px;
+    border-radius: 3px ;
+    outline: none;
+    border: 1px solid lightgray;
+    margin: 5px 0 20px 0; 
+}
+ .login-btn {
+    padding: 10px 25px;
+    background-color: #0e0e0e;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-btn:hover {
+    background-color: #1c1d1edd;
+}
+.login-form h1{
+    font-size: 2rem;
+}
+.main-card p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+.main-card p span{
+    color: blue;
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,152 @@
+#navbar {
+    width: 100%;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    box-shadow: -1px -3px 10px grey;
+
+}
+#navbar nav{
+    padding: 1vh 10vw 0vh 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+#navbar nav img{
+    width: 120px;
+}
+#navbar nav ul{
+    display: flex;
+    align-items: center;
+}
+#navbar nav ul li{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 17px;
+    color: rgb(81, 81, 81);
+    cursor: pointer;
+}
+#navbar nav ul a{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 17px;
+    color: rgb(81, 81, 81);
+    cursor: pointer;
+}
+.search a{
+    cursor: pointer;
+    font-size: 22px;
+}
+.search-in{
+    border: 1px solid rgba(128, 128, 128, 0.615);
+    border-radius: 15px;
+    padding:3px 10px;
+    width: 15vw;
+}
+.search-in input{
+    border-radius: 15px;
+    border: none;
+    padding: 5px 2px;
+    width: max-content;
+    outline: none;
+    width: 13vw;
+}
+.search-in a{
+    font-size: 20px;
+    float: right;
+    align-items: center;
+    margin: auto
+}
+.login-btn{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 3px;
+    background-color: #1c1c9d;
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 1px 8px 2px rgba(222, 184, 135, 0.489);
+}
+
+
+.dropbtn {
+    background-color: white;
+    color: rgb(81, 81, 81);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 250px;
+    width: fit-content;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content-a {
+    color: black;
+    /* padding-top: 22px; */
+    margin: 15px 0px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    background-color: white;
+  }
+  
+.sidebar{
+    position: absolute;
+    background-color: #0000008f;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.side-card{
+    background-color: white;
+    padding: 10vh 10vw;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 2px 1px rgba(255, 255, 255, 0.419);
+
+}
+.side-card label{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.side-card input{
+    padding: 10px 15px;
+    outline: none;
+    width: 20vw;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+}
+.side-card button{
+    margin-top: 20px;
+    background-color: #1c1c9d;
+    color: white;
+    padding: 12px 0;
+    width: 7vw;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}

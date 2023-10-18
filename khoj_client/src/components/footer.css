@@ -1,0 +1,24 @@
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 3vh 0;
+    box-shadow:3px -1px 8px 0px rgba(147, 146, 146, 0.558);
+}
+.footer-elements {
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-elements ul li{
+    list-style-type: none;
+    padding: 5px 0;
+    color: black;
+}
+.copy{
+    width: 100%;
+    text-align: center;
+    padding: 2vh 0;
+    border-top: 1px solid rgba(128, 128, 128, 0.347);
+}
