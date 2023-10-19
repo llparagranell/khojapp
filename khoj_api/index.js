@@ -21,7 +21,7 @@ app.use(express.json());
   
 mongoose
   .connect(
-  'mongodb+srv://paragrane:P%40rane999@cluster0.ozsdbxl.mongodb.net/',
+  process.env.MONGO,
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => console.log("db is connected"))

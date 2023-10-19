@@ -34,7 +34,7 @@ exports.signup = async (req, res) => {
     });
     cart.save();
     // res.json(cart);
-    const token = jwt.sign(payload, 'qwertyuiop', { expiresIn: "2h" });
+    const token = jwt.sign(payload, process.env.token, { expiresIn: "2h" });
     res
       .cookie("access_token", token, {
         httpOnly: true,
@@ -72,7 +72,7 @@ exports.login = async (req, res) => {
       name: user.name,
       email: user.email,
     };
-    const token = jwt.sign(payload, 'qwertyuiop', { expiresIn: "2h" });
+    const token = jwt.sign(payload, process.env.token, { expiresIn: "2h" });
     res
       .cookie("access_token", token, {
         httpOnly: true,
